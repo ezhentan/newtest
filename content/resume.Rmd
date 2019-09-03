@@ -1,11 +1,6 @@
 ---
-title: resume
-author: ''
 date: '2019-09-03'
-slug: resume
-categories:
-  - job
-tags: []
+title: Resume
 ---
 
 ![](Resume1.png)
