@@ -13,7 +13,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Home"
     url = "/"
     weight = 1
-    
+
 [[menu.main]]
     name = "About"
     url = "/about/"
@@ -23,12 +23,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Resume"
     url = ""
     weight = 3
-    
+
 [[menu.main]]
     name = "GitHub-Portfolio"
     url = "https://github.com/ezhentan/schoolprojects"
     weight = 4
-    
+
 [[menu.main]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/tanezhen/"
@@ -36,7 +36,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     mainSections = "About"
-    
+
     description = "A website built through Hugo and blogdown."
 
     # options for highlight.js (version, additional languages, and theme)
@@ -56,4 +56,3 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     width = 50
     height = 50
     alt = "Logo"
-
