@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A Hugo website"
+title = "E-Zhen Tan"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
@@ -10,17 +10,32 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+    
+[[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Resume"
+    url = ""
+    weight = 3
+    
 [[menu.main]]
     name = "GitHub-Portfolio"
     url = "https://github.com/ezhentan/schoolprojects"
+    weight = 4
+    
 [[menu.main]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/tanezhen/"
+    weight = 5
 
 [params]
-    mainSections = ["/about/"]
+    mainSections = "About"
     
     description = "A website built through Hugo and blogdown."
 
