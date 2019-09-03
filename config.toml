@@ -36,9 +36,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     author = "E-Zhen Tan"
-    dateFormat = "Sep 3, 2019"
-
-    mainSections = "About"
 
     description = "A website built through Hugo and blogdown."
 
