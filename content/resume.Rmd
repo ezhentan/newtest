@@ -1,0 +1,17 @@
+---
+title: Resume
+author: ''
+date: '2019-09-03'
+slug: resume
+categories:
+  - job
+tags: []
+---
+
+Courses:
+  - course: Bachelor of Science in Business Analytics
+    institution: Singapore University of Social Sciences
+    year: Jul 2018 - Jul 2022 (expected)
+  - course: GCE 'A' Levels
+    institution: Jurong Junior College
+    year: 2016 - 2017
