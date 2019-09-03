@@ -11,13 +11,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     name = "Home"
-    url = "https://ezhentan.netlify.com/about/"
+    url = "https://ezhentan.netlify.com"
     weight = 1
 
-#[[menu.main]]
- #   name = "About"
-  #  url = "/about/"
-   # weight = 2
+[[menu.main]]
+   name = "About"
+   url = "/about/"
+   weight = 2
 
 [[menu.main]]
     name = "Resume"
