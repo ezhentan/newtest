@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://ezhentan.netlify.com/"
 languageCode = "en-us"
 title = "E-Zhen Tan"
 theme = "hugo-lithium"
@@ -11,7 +11,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     name = "Home"
-    url = "/"
+    url = "https://ezhentan.netlify.com/"
     weight = 1
 
 [[menu.main]]
