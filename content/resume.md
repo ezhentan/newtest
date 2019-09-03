@@ -1,8 +1,6 @@
 ---
-title: resume
-author: ''
+title: Resume
 date: '2019-09-03'
-slug: resume
 ---
 
 ![](Resume1.png)
