@@ -22,23 +22,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 2
 
 [[menu.main]]
-    name = "Post"
-    url = "/post/"
-    weight = 3
-
-[[menu.main]]
     name = "GitHub-Portfolio"
     url = "https://github.com/ezhentan/schoolprojects"
-    weight = 4
+    weight = 3
 
 [[menu.main]]
     name = "LinkedIn"
     url = "www.linkedin.com/in/ezhentan"
-    weight = 5
-    
-[[menu.main]]
-    name = "blog"
-    url = "/post/"
+    weight = 4
 
 [params]
     author = "E-Zhen Tan"
