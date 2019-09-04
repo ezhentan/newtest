@@ -12,10 +12,6 @@ tags:
   - experience
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 # Abstract
 
 *Duration of trip: 3-9 March 2019*  
@@ -28,7 +24,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <p style="text-align:justify">As this was my first time in Myanmar, the trip was incredibly eye-opening. After hearing from various industry professionals about the achievements that the businesses have achieved and challenges that they are facing, my impression of working in Myanmar has changed. Many may see Myanmar as an underdeveloped country, but the economy is making slow and steady progress. With the government gradually adjusting regulations, such as liberalising the insurance industry, I am sure that Myanmar will, in no time, be on par with, or become even better than, its ASEAN counterparts.</p>
 
-<!-- wp:paragraph {"align":"justify"} -->
 <p style="text-align:justify">The observations made during the trip will definitely aid me in my future career and personal development, as it has taught me to be more open-minded. At first, I thought Myanmar would not be a good place to have a career. Like most people, I was aiming to work either locally or in developed countries such as the United States. However, the trip has changed this perspective for me. With so much room in the market for growth, it is hard to ignore the potential that exist in the Burmese economy.</p>
 
 <p style="text-align:justify">Using the insurance industry as an example, with current technology and data, the industry has the potential to leapfrog the rest of Southeast Asia. Compared to other countries where the growth is gradual due to limitations in technologies, Myanmar has not fully harnessed modern technology yet. This is because Myanmar was a closed economy until 2015. In addition, the Burmese companies do not have legacy standards to meet as compared to the large foreign companies such as Great Eastern. In addition, Myanmar’s insurance penetration rate as a percentage of GDP is still approximately 3% below that of ASEAN’s. The fast-growing mass and affluent consumer segments will also come to be helpful in improving the growth of the industry, as demand for insurance is likely to rise. There is still so much more that the economy can maximise on. Hence, if given a choice to work in Myanmar, I would certainly not shun the idea. </p>
