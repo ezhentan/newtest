@@ -1,9 +1,5 @@
 ---
-title: Posts
-author: ''
 date: '2019-09-04'
-slug: post
-categories: []
-tags: []
+title: Posts
 ---
 
