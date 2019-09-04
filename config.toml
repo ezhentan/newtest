@@ -35,6 +35,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "LinkedIn"
     url = "www.linkedin.com/in/ezhentan"
     weight = 5
+    
+[[menu.main]]
+    name = "blog"
+    url = "/post/"
 
 [params]
     author = "E-Zhen Tan"
