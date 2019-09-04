@@ -1,13 +1,10 @@
 baseurl = "https://ezhentan.netlify.com/"
-copyright = "&copy; 2019"
 languageCode = "en-us"
 title = "E-Zhen Tan"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-#copyright = "&copy; 2019"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
