@@ -4,6 +4,8 @@ title = "E-Zhen Tan"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
+enableGitinfo = true
+enableEmoji = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
@@ -36,8 +38,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     author = "E-Zhen Tan"
-    enableGitinfo = true
-    enableEmoji = true
 
     description = "A website built through Hugo and blogdown."
 
