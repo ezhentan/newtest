@@ -17,16 +17,16 @@
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/blog/</guid>
-      <description>Experiential Learning to Yangon, Myanmar</description>
+      <description></description>
     </item>
     
     <item>
-      <title>Blog</title>
+      <title>Posts</title>
       <link>/post/</link>
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/</guid>
-      <description>Experiential Learning to Yangon, Myanmar</description>
+      <description>{{ if .Content }} {{ if .Title }} {{ .Title }} {{ end }} {{ .Content }}   {{ end }} {{ $pages := .Pages }} {{ if .IsHome }} {{ $pages = .Site.RegularPages }} {{ end }} {{ range (where $pages &#34;Section&#34; &#34;!=&#34; &#34;&#34;).GroupByDate &#34;2006&#34; }} {{ .Key }} {{ range .Pages }} {{ .Title }} {{ .Date.Format &#34;2006-01-02&#34; }}   {{ end }} {{ end }}   Experiential Learning to Yangon, Myanmar</description>
     </item>
     
     <item>
