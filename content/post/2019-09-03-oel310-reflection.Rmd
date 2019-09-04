@@ -3,6 +3,7 @@ title: Experiential Learning Journey to Yangon, Myanmar
 author: ''
 date: '2019-03-10'
 slug: oel310-reflection
+description: Insights from week-long study trip to Myanmar
 categories:
   - Experience
   - Reflection
