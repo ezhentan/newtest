@@ -7,7 +7,7 @@ categories: []
 tags: []
 ---
 
-```{python dictionary, echo = TRUE, eval = FALSE}
+```{python dictionary, include = TRUE, eval = FALSE}
 import json
 import datetime as dt
 
@@ -173,7 +173,6 @@ Would you like to see the next word?''')
                 json.dump(words, f_update, indent = 2)
         
         menu = input('1-record new word and/or new sentence; 2-review word from revision history; q-quit: ')
-
 ```
 
 
