@@ -5,4 +5,4 @@ title: Resume
 
 Updated: 2019-09-03
 
-My resume is linked [here](Resume.pdf).
+My resume can be downloaded [here](Resume.pdf).
