@@ -28,7 +28,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     name = "LinkedIn"
-    url = "www.linkedin.com/in/ezhentan"
+    url = "https://www.linkedin.com/in/ezhentan/"
     weight = 4
 
 [params]
