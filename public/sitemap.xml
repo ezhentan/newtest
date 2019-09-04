@@ -8,12 +8,7 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2019-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2019/09/04/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2019-09-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,7 +38,12 @@
   </url>
   
   <url>
-    <loc>/2019/03/10/oel310-reflection/</loc>
+    <loc>/posts/oel310-reflection/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
   

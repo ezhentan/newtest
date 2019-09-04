@@ -13,10 +13,10 @@
     
     <item>
       <title>Posts</title>
-      <link>/2019/09/04/posts/</link>
+      <link>/posts/</link>
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/09/04/posts/</guid>
+      <guid>/posts/</guid>
       <description> {{ if .Content }} {{ if .Title }} {{ .Title }} {{ end }} {{ .Content }}   {{ end }} {{ $pages := .Pages }} {{ if .IsHome }} {{ $pages = .Site.RegularPages }} {{ end }} {{ range (where $pages &#34;Section&#34; &#34;!=&#34; &#34;&#34;).GroupByDate &#34;2006&#34; }} {{ .Key }} {{ range .Pages }} {{ .Title }} {{ .Date.Format &#34;2006-01-02&#34; }}   {{ end }} {{ end }}  </description>
     </item>
     
@@ -37,10 +37,10 @@ Teaching Assistant and Part-Time Teacher  Teaching a regular P4Write class of 3 
     
     <item>
       <title>Experiential Learning Journey to Yangon, Myanmar</title>
-      <link>/2019/03/10/oel310-reflection/</link>
+      <link>/posts/oel310-reflection/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2019/03/10/oel310-reflection/</guid>
+      <guid>/posts/oel310-reflection/</guid>
       <description>Abstract Duration of trip: 3-9 March 2019
 Course code: OEL310
 Author: E-Zhen Tan
