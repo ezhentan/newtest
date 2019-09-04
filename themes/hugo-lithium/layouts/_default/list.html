@@ -1,4 +1,16 @@
+<!--
 {{ partial "header.html" . }}
+
+<main class="content" role="main">
+  {{ if .Content }}
+  <article class="article">
+    {{ if .Title }}
+    <h1 class="article-title">{{ .Title }}</h1>
+    {{ end }}
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+  </article>
 
 <HEAD>
   <TITLE>About Me</TITLE>
@@ -11,12 +23,11 @@
 <img src="IMG_3376.png" alt="E-Zhen">
 </Body>
 
-{{ partial "footer.html" . }}
+</main>
 
-<!--
+{{ partial "footer.html" . }}-->
+
 {{ partial "header.html" . }}
-
-style="text-align:justify"; style="font-family:Merriweather;"
 
 <main class="content" role="main">
 
@@ -50,4 +61,4 @@ style="text-align:justify"; style="font-family:Merriweather;"
 
 </main>
 
-{{ partial "footer.html" . }}-->
+{{ partial "footer.html" . }}
