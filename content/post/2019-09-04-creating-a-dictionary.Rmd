@@ -7,10 +7,6 @@ categories: []
 tags: []
 ---
 
-```{r dictionary, include = TRUE, eval = FALSE}
-x = 1
-y = 1
-x + y
-```
+
 
 
