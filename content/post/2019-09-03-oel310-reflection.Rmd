@@ -1,7 +1,7 @@
 ---
 title: Experiential Learning Journey to Yangon, Myanmar
 author: ''
-date: '2019-09-03'
+date: '2019-03-10'
 slug: oel310-reflection
 categories:
   - Experience
@@ -18,7 +18,8 @@ knitr::opts_chunk$set(echo = FALSE)
 # Abstract
 
 *Duration of trip: 3-9 March 2019*  
-*Course code: OEL310*
+*Course code: OEL310*  
+*Author: E-Zhen Tan*
 
 <p style="text-align:justify">This trip was organised for students to see how the workings of companies in Yangon, Myanmar. The reflection below is my insights from this week-long trip.</p>
 
