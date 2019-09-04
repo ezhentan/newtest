@@ -6,10 +6,19 @@
     <description>Recent content in Posts on E-Zhen Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Posts</title>
+      <link>/2019/09/04/posts/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/09/04/posts/</guid>
+      <description> {{ if .Content }} {{ if .Title }} {{ .Title }} {{ end }} {{ .Content }}   {{ end }} {{ $pages := .Pages }} {{ if .IsHome }} {{ $pages = .Site.RegularPages }} {{ end }} {{ range (where $pages &#34;Section&#34; &#34;!=&#34; &#34;&#34;).GroupByDate &#34;2006&#34; }} {{ .Key }} {{ range .Pages }} {{ .Title }} {{ .Date.Format &#34;2006-01-02&#34; }}   {{ end }} {{ end }}  </description>
+    </item>
     
     <item>
       <title>Experiential Learning Journey to Yangon, Myanmar</title>
