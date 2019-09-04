@@ -10,14 +10,14 @@ tags: []
 
 <pre class="python">
   <code>
-    import json
-    import datetime as dt
+import json
+import datetime as dt
 
-    from itertools import islice
+from itertools import islice
 
-    #Creating functions
-    def take(n, iterable):
-      return dict(islice(iterable, n))
+#Creating functions
+def take(n, iterable):
+  return dict(islice(iterable, n))
 
 def adding_word(word): #add_word function for the user to confirm the input
     print(f'''
