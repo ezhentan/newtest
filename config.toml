@@ -36,8 +36,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     author = "E-Zhen Tan"
-    copyright = "&copy; 2019"
     enableGitinfo = true
+    enableEmoji = true
 
     description = "A website built through Hugo and blogdown."
 
