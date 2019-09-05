@@ -17,7 +17,7 @@
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/09/04/creating-a-dictionary/</guid>
-      <description></description>
+      <description>Importing the necessary libraries  json - for writing the text file datetime - for including date and time stamp from local computer islice - for displaying a selected number of keys and values in a dictionary    import json import datetime as dt from itertools import islice #Creating functions def take(n, iterable): return dict(islice(iterable, n)) def adding_word(word): #add_word function for the user to confirm the input print(f&#39;&#39;&#39; This is your word added: {word} &#39;&#39;&#39;) if word_low in words[&#39;dictionary&#39;]: word_sentence = words[&#39;dictionary&#39;][word_low][0] choice = input(f&#39;This is not a new word, and example sentence(s), {word_sentence}, has already been added.</description>
     </item>
     
     <item>
