@@ -66,6 +66,9 @@ Once the changes are pushed, refresh your GitHub repository and admire your hand
 
 # Appendix A: Creating a folder in GitHub
 
+
+<img src="./git_folder.png"></img>
+
 ```{r pressure, echo=FALSE, eval=TRUE, out.width = '100%'}
 knitr::include_graphics("./git_folder.png")
 ```
