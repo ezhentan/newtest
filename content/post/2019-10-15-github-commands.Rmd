@@ -70,4 +70,4 @@ Once the changes are pushed, refresh your GitHub repository and admire your hand
 knitr::include_graphics("./git_folder.png")
 ```
 
-![](./git_folder.png)
+<!--![](./git_folder.png)-->
