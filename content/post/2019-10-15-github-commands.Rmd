@@ -23,13 +23,13 @@ Now that Git is installed, we can move on to Step 1.
 
 # Step 1: Create a Repository
 
-This will be done in the GitHub website, rather self-explanatory. For my repository, I named in 'Projects'. 
+This will be done in the GitHub website, rather self-explanatory. For my repository, I named in 'schoolprojects'. 
 
 # Step 2: Create a File in your computer
 
 This can be done in Terminal using the following code:
 ```{bash}
-mkdir Projects
+mkdir schoolprojects
 ```
 
 *Note that the name of the folder must correspond to the name of the repository made in Step 1.*
@@ -37,7 +37,7 @@ mkdir Projects
 Once the folder has been created, a good practice is to create a README.md file to explain what the contents of the repository is about. This can be done from GitHub, but we shall try this from Terminal instead. The `echo` command will create a new file in the directory.
 
 ```{bash}
-echo '#Projects' >> README.md
+echo '#schoolprojects' >> README.md
 cat README.md
 ```
 
