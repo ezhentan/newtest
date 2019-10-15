@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>self-learnt on E-Zhen Tan</title>
+    <link>/tags/self-learnt/</link>
+    <description>Recent content in self-learnt on E-Zhen Tan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/self-learnt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub Commands</title>
+      <link>/2019/10/15/github-commands/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/10/15/github-commands/</guid>
+      <description>This guide is what I have learnt from building my GitHub portfolio. It also serves as a reminder for me when I need to refer to the codes again.
+Step 0: Install Git in Terminal (if you have not done so) Whether you have Git already in your command shell can be easily verified with one command. Run git in your shell. If it says command not found, then you can go ahead and install Git.</description>
+    </item>
+    
+  </channel>
+</rss>

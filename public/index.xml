@@ -6,10 +6,30 @@
     <description>Recent content on E-Zhen Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GitHub Commands</title>
+      <link>/2019/10/15/github-commands/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/10/15/github-commands/</guid>
+      <description>This guide is what I have learnt from building my GitHub portfolio. It also serves as a reminder for me when I need to refer to the codes again.
+Step 0: Install Git in Terminal (if you have not done so) Whether you have Git already in your command shell can be easily verified with one command. Run git in your shell. If it says command not found, then you can go ahead and install Git.</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>/post/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/</guid>
+      <description>Blogposts:
+Experiential Learning to Yangon, Myanmar</description>
+    </item>
     
     <item>
       <title>Creating a dictionary</title>
@@ -21,27 +41,18 @@
     </item>
     
     <item>
-      <title>Posts</title>
-      <link>/post/</link>
-      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/</guid>
-      <description>Experiential Learning to Yangon, Myanmar</description>
-    </item>
-    
-    <item>
       <title>Resume</title>
       <link>/resume/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/resume/</guid>
-      <description>Updated: 2019-09-03
+      <description>Updated: 2019-10-03
 My resume can be downloaded here.
 Key Details Education Singapore University of Social Sciences
 Bachelor of Science in Business Analytics
- CGPA: 3.52/5.0   Jul 2018 - Jul 2022 (expected)   Work Experience Writers@Work Enrichment
+ CGPA: 3.52/5.0   JUL 2018 - JUN 2022 (expected)   Work Experience Writers@Work Enrichment
 English Tuition Centre for Primary and Secondary Levels
-Teaching Assistant and Part-Time Teacher  Teaching a regular P4Write class of 3 students from end May 2019 to end September 2019 Marking and grading scripts, ranging from P2 to APW (Secondary 3 and 4 students)   JUN 2018 – Present  ERGO Insurance Pte Ltd</description>
+Teaching Assistant and Part-Time Teacher  Teaching relief classes for teachers who are on leave Teaching a regular P4Write class of 3 students from end May 2019 to end September 2019 Marking and grading scripts, ranging from P2 to APW (Secondary 3 and 4 students) Editing the worksheets for the following school year to ensure that there are no errors and to add additional phrases into the model compositions Creating new stories accordingly when needed for the curriculum   JUN 2018 – Present  ERGO Insurance Pte Ltd</description>
     </item>
     
     <item>

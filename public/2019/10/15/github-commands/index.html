@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.57.2" />
+
+
+<title>GitHub Commands - E-Zhen Tan</title>
+<meta property="og:title" content="GitHub Commands - E-Zhen Tan">
+
+
+  <link href='/IMG_3376.png' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/IMG_3376.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/">Home</a></li>
+    
+    <li><a href="/resume/">Resume</a></li>
+    
+    <li><a href="https://github.com/ezhentan/schoolprojects">GitHub-Portfolio</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/ezhentan/">LinkedIn</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">GitHub Commands</h1>
+
+    
+    <span class="article-date">2019-10-15</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p>This guide is what I have learnt from building my GitHub portfolio. It also serves as a reminder for me when I need to refer to the codes again.</p>
+<div id="step-0-install-git-in-terminal-if-you-have-not-done-so" class="section level1">
+<h1>Step 0: Install Git in Terminal (if you have not done so)</h1>
+<p>Whether you have Git already in your command shell can be easily verified with one command. Run <code>git</code> in your shell. If it says <code>command not found</code>, then you can go ahead and install Git. If Git is already installed, Terminal will list out some information and commands that you can run to use Git.</p>
+<p>Now that Git is installed, we can move on to Step 1.</p>
+</div>
+<div id="step-1-create-a-repository" class="section level1">
+<h1>Step 1: Create a Repository</h1>
+<p>This will be done in the GitHub website, rather self-explanatory. For my repository, I named in ‘Projects’.</p>
+</div>
+<div id="step-2-create-a-file-in-your-computer" class="section level1">
+<h1>Step 2: Create a File in your computer</h1>
+<p>This can be done in Terminal using the following code:</p>
+<pre class="bash"><code>mkdir Projects</code></pre>
+<p><em>Note that the name of the folder must correspond to the name of the repository made in Step 1.</em></p>
+<p>Once the folder has been created, a good practice is to create a README.md file to explain what the contents of the repository is about. This can be done from GitHub, but we shall try this from Terminal instead. The <code>echo</code> command will create a new file in the directory.</p>
+<pre class="bash"><code>echo &#39;#Projects&#39; &gt;&gt; README.md
+cat README.md</code></pre>
+</div>
+<div id="step-3-initialise-and-commit-changes" class="section level1">
+<h1>Step 3: Initialise and commit changes</h1>
+<pre class="bash"><code>git init
+git commit -m &#39;README file&#39;</code></pre>
+</div>
+<div id="step-4-add-a-remote" class="section level1">
+<h1>Step 4: Add a remote</h1>
+<pre class="bash"><code>git add remote add origin &lt;repository URL&gt;</code></pre>
+</div>
+<div id="step-5-push-the-changes-up-to-the-repository" class="section level1">
+<h1>Step 5: Push the changes up to the repository</h1>
+<pre class="bash"><code>git push -u origin master</code></pre>
+<p>Once the changes are pushed, refresh your GitHub repository and admire your handiwork!</p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <p>Copyright &copy; 2019 </p>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+
+
