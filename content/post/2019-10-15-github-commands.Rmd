@@ -68,10 +68,10 @@ Once the changes are pushed, refresh your GitHub repository and admire your hand
 
 To create a new folder, add a `/` in front of the folder name. GitHub will automatically format it to a folder. However, the catch is that there must be a file inside the folder. 
 
-<img src="./git_folder.png"></img>
+<!--<img src="./git_folder.png"></img>
 
-```{r pressure, echo=FALSE, eval=TRUE, out.width = '100%'}
+```{r pressure, echo=FALSE, out.width = '100%'}
 knitr::include_graphics("./git_folder.jpg")
 ```
-
-![](./git_folder.png)
+-->
+![](./git_folder.jpg)
