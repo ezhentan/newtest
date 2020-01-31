@@ -32,27 +32,19 @@ Experiential Learning to Yangon, Myanmar</description>
     </item>
     
     <item>
-      <title>Creating a dictionary</title>
-      <link>/2019/09/04/creating-a-dictionary/</link>
-      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/09/04/creating-a-dictionary/</guid>
-      <description>Note: The files with the code and the text file can also be found in my GitHub linked above. Step 1: Importing the necessary libraries json - for writing the text file datetime - for including date and time stamp from local computer islice - for displaying a selected number of keys and values in a dictionary   import json import datetime as dt from itertools import islice #Creating functions def take(n, iterable): return dict(islice(iterable, n)) def adding_word(word): #add_word function for the user to confirm the input print(f&#39;&#39;&#39; This is your word added: {word} &#39;&#39;&#39;) if word_low in words[&#39;dictionary&#39;]: word_sentence = words[&#39;dictionary&#39;][word_low][0] choice = input(f&#39;This is not a new word, and example sentence(s), {word_sentence}, has already been added.</description>
-    </item>
-    
-    <item>
       <title>Resume</title>
       <link>/resume/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/resume/</guid>
-      <description>Updated: 2019-10-24
+      <description>Updated: 2020-02-01
 My resume can be downloaded here.
 Key Details Education Singapore University of Social Sciences
 Bachelor of Science in Business Analytics
- JUL 2018 - JUN 2022 (expected)   Work Experience Writers@Work Enrichment
-English Tuition Centre for Primary and Secondary Levels
-Teaching Assistant and Part-Time Teacher  Teaching relief classes for teachers who are on leave Teaching a regular P4Write class of 3 students from end May 2019 to end September 2019 Marking and grading scripts, ranging from P2 to APW (Secondary 3 and 4 students) Editing the worksheets for the following school year to ensure that there are no errors and to add additional phrases into the model compositions Creating new stories accordingly when needed for the curriculum   JUN 2018 – Present  ERGO Insurance Pte Ltd</description>
+ JUL 2018 - JUN 2022 (expected)   Work Experience Jewel Paymentech
+Data Science Intern
+Skills: Python, sklearn
+ Model Evaluation:  LIME (Local Interpretable Model-agnostic Explanations) for trained Vader and bidirectional LSTM models Flask API to obtain data from server Comparison of trained bidirectional LSTM, BERT and Multinomial Naive Bayes classifiers (percentage of false positives, etc.</description>
     </item>
     
     <item>
