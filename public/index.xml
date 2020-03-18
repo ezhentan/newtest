@@ -37,12 +37,8 @@ Experiential Learning to Yangon, Myanmar</description>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/resume/</guid>
-      <description>Updated: 2020-02-01
-My resume can be downloaded here.
-Key Details Work Experience Jewel Paymentech
-Data Science Intern
-Skills: Python, sklearn
- Model Evaluation:  LIME (Local Interpretable Model-agnostic Explanations) for trained Vader and bidirectional LSTM models Flask API to obtain data from server Comparison of trained bidirectional LSTM, BERT and Multinomial Naive Bayes classifiers (percentage of false positives, etc.)    To find a quicker way of filtering out non-normal listings in the data:  Trained an auto-encoder to find top 1% of outliers using cosine similarity measure Tuned the hyperparameters of the auto-encoder using GridSearchCV K-Means clustering to cluster the normal listings    NOV 2019 – JAN 2020  Writers@Work Enrichment</description>
+      <description>Updated: 2019-09-03
+My resume can be downloaded here.</description>
     </item>
     
     <item>
