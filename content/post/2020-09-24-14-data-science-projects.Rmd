@@ -31,7 +31,7 @@ library(readr)
 
 ```{r last_edited, eval=TRUE}
 last_edited <- format(Sys.time(), '%Y-%m-%d')
-cat('Last edited on ', last_edited)
+cat('Last edited on', last_edited)
 ```
 
 This post serves as a documentation of 14 Data Science projects I am committing to complete. Why am I doing this? Recently, I came across a video by Thomas Frank (from College Info Geek) about [the 1% Rule](https://www.youtube.com/watch?v=t_FSSC-ixK8), and it really got me thinking. In essence, the 1% rule states that with every new project or work, there should be an improvement of 1%. This may seem small, but with time and with more projects, it will not take long for the progress to increase exponentially.
@@ -108,7 +108,7 @@ fig_2
 
 ## References
 
-https://thomasjfrank.com/my-1-rule-journal/
+1. Frank, Thomas (n.d.). My 1% Rule Journal. Retrieved from: https://thomasjfrank.com/my-1-rule-journal/
 
-https://towardsdatascience.com/14-data-science-projects-to-do-during-your-14-day-quarantine-8bd60d1e55e1
+2. S, Terence (2020, April 5). 14 Data Science Projects to do During Your 14 Day Quarantine. *Towards Data Science*. Retrieved from: https://towardsdatascience.com/14-data-science-projects-to-do-during-your-14-day-quarantine-8bd60d1e55e1
 
