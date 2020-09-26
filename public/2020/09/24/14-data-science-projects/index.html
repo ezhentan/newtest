@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.57.2" />
+
+
+<title>14 Data Science Projects - E-Zhen Tan</title>
+<meta property="og:title" content="14 Data Science Projects - E-Zhen Tan">
+
+
+  <link href='/IMG_3376.png' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/IMG_3376.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/">Home</a></li>
+    
+    <li><a href="/resume/">Resume</a></li>
+    
+    <li><a href="https://github.com/ezhentan/schoolprojects">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/ezhentan/">LinkedIn</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">14 Data Science Projects</h1>
+
+    
+    <span class="article-date">2020-09-24</span>
+    
+
+    <div class="article-content">
+      
+<script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/rmarkdown-libs/plotly-binding/plotly.js"></script>
+<script src="/rmarkdown-libs/typedarray/typedarray.min.js"></script>
+<script src="/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/rmarkdown-libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/crosstalk/js/crosstalk.min.js"></script>
+<link href="/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/plotly-main/plotly-latest.min.js"></script>
+
+
+<style>
+body {
+text-align: justify
+}
+</style>
+<pre><code>## Last edited on  2020-09-26</code></pre>
+<p>This post serves as a documentation of 14 Data Science projects I am committing to complete. Why am I doing this? Recently, I came across a video by Thomas Frank (from College Info Geek) about <a href="https://www.youtube.com/watch?v=t_FSSC-ixK8">the 1% Rule</a>, and it really got me thinking. In essence, the 1% rule states that with every new project or work, there should be an improvement of 1%. This may seem small, but with time and with more projects, it will not take long for the progress to increase exponentially.</p>
+<p>As such, I decided to embark on a series of projects that I can do to kickstart the consistency that I would need to truly capitalize on the 1% rule. For this post, I have followed the project ideas from Terence S’s (2020) post, <em>14 Data Science Projects to do During Your 14 Day Quarantine</em>, linked <a href="https://towardsdatascience.com/14-data-science-projects-to-do-during-your-14-day-quarantine-8bd60d1e55e1">here</a>. The projects consist of 3 Visualization, 6 Exploratory Data Analysis, 5 Predictive Modelling projects.</p>
+<p>With this post, I aim to upload my outputs here, and list my learning points and/or improvements after each project. Additionally, all outputs will be from code, unless otherwise stated (when I have produced the outputs in Tableau).</p>
+<div id="project-1-visualization-coronavirus-and-the-global-spread-over-time" class="section level2">
+<h2>Project 1: [Visualization] Coronavirus and the Global Spread Over Time</h2>
+<p><em>Date completed: 2020-09-24</em><br />
+</p>
+<p>Learning points:</p>
+<ul>
+<li>Using Plotly for the first time in Python, and converting the code to be used in R</li>
+<li>Data Frame manipulation in R</li>
+</ul>
+<p>Area(s) to work on:</p>
+<ul>
+<li>Creating an interactive chart with sliders in R to show the spread of the coronavirus over time. Managed to do it in Python with Plotly Express, but this is not available in R.</li>
+</ul>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"visdat":{"12c09301dca6":["function () ","plotlyVisDat"]},"cur_data":"12c09301dca6","attrs":{"12c09301dca6":{"locations":["Afghanistan","Albania","Algeria","Andorra","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burma","Burundi","Cabo Verde","Cambodia","Cameroon","Canada","Central African Republic","Chad","Chile","Colombia","Comoros","Congo (Brazzaville)","Congo (Kinshasa)","Costa Rica","Croatia","Cuba","Cyprus","Czech Republic","Denmark","Diamond Princess","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Eswatini","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Holy See","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Ivory Coast","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macau","Madagascar","Mainland China","Malawi","Malaysia","Maldives","Mali","Malta","Mauritania","Mauritius","Mexico","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","MS Zaandam","Namibia","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Macedonia","Norway","Oman","Pakistan","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Qatar","Romania","Russia","Rwanda","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","San Marino","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Somalia","South Africa","South Korea","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor-Leste","Togo","Trinidad and Tobago","Tunisia","Turkey","Uganda","UK","Ukraine","United Arab Emirates","Uruguay","US","Uzbekistan","Venezuela","Vietnam","West Bank and Gaza","Western Sahara","Yemen","Zambia","Zimbabwe","Others","Bahamas, The","Cape Verde","East Timor","French Guiana","Gambia, The","Guadeloupe","Martinique","Mayotte","Reunion","Aruba","Cayman Islands","Curacao","('St. Martin',)","Channel Islands","Faroe Islands","Gibraltar","Saint Barthelemy","Palestine","St. Martin","Vatican City","Republic of Ireland","North Ireland"],"locationmode":"country names","z":[38716,11353,48254,1344,3388,95,555537,45862,26692,33159,38327,2928,60307,337520,181,74173,93455,1480,2267,245,126791,23465,2252,4330455,145,17918,1707,3015,472,4813,275,20167,138640,4749,1084,434748,716319,456,4928,10390,55454,13533,4684,1526,36188,20327,712,5395,24,103660,118594,101009,26928,4996,361,2676,5075,64301,32,8580,402893,8643,3405,2227,261737,45434,13240,24,81909,10045,2275,1853,8493,12,67789,4957,12309,2165,4754356,218382,402029,290309,30985,155604,287753,19013,3771,75646,3314,106855,36157,12683,94764,44881,23,1474,24310,1245,1319,22781,111,3335,7159,46,15757,85194,5690,9915,9173,2924,2352,7276,361,668381,42978,171,311,6712,86686,5269,9,9719,54159,85876,1798,4818,1180,56256,15791,12154,89746,302020,101745,510,27817,722832,261216,74152,63983,121740,103495,1059024,4591,17,27,64,722,906,325651,14280,32408,139,2109,57406,5532,3702,3389,649793,22285,2578,566326,3234,13516,4582,86505,47179,3540,498,9049,509,3475,27,1572,3042,6635,291162,4799,370930,158122,79489,1808,6519573,47287,60540,1063,30574,10,2011,13539,7526,712,4,1,1,18,1,53,32,7,45,4,1,1,2,1,2,1,1,22,2,1,21,1],"colorscale":"Reds","marker":{"line":{"color":"black","width":0.5}},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"choropleth"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":{"text":"Confirmed Cases as of September 23, 2020"},"geo":{"showframe":false,"showcoastlines":false,"projection":{"type":"equirectangular"}},"scene":{"zaxis":{"title":[]}},"hovermode":"closest","showlegend":false,"legend":{"yanchor":"top","y":0.5}},"source":"A","config":{"showSendToCloud":false},"data":[{"colorbar":{"title":"","ticklen":2,"len":0.5,"lenmode":"fraction","y":1,"yanchor":"top"},"colorscale":"Reds","showscale":true,"locations":["Afghanistan","Albania","Algeria","Andorra","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burma","Burundi","Cabo Verde","Cambodia","Cameroon","Canada","Central African Republic","Chad","Chile","Colombia","Comoros","Congo (Brazzaville)","Congo (Kinshasa)","Costa Rica","Croatia","Cuba","Cyprus","Czech Republic","Denmark","Diamond Princess","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Eswatini","Ethiopia","Fiji","Finland","France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada","Guatemala","Guinea","Guinea-Bissau","Guyana","Haiti","Holy See","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Ivory Coast","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kosovo","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macau","Madagascar","Mainland China","Malawi","Malaysia","Maldives","Mali","Malta","Mauritania","Mauritius","Mexico","Moldova","Monaco","Mongolia","Montenegro","Morocco","Mozambique","MS Zaandam","Namibia","Nepal","Netherlands","New Zealand","Nicaragua","Niger","Nigeria","North Macedonia","Norway","Oman","Pakistan","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Qatar","Romania","Russia","Rwanda","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","San Marino","Sao Tome and Principe","Saudi Arabia","Senegal","Serbia","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Somalia","South Africa","South Korea","South Sudan","Spain","Sri Lanka","Sudan","Suriname","Sweden","Switzerland","Syria","Taiwan","Tajikistan","Tanzania","Thailand","Timor-Leste","Togo","Trinidad and Tobago","Tunisia","Turkey","Uganda","UK","Ukraine","United Arab Emirates","Uruguay","US","Uzbekistan","Venezuela","Vietnam","West Bank and Gaza","Western Sahara","Yemen","Zambia","Zimbabwe","Others","Bahamas, The","Cape Verde","East Timor","French Guiana","Gambia, The","Guadeloupe","Martinique","Mayotte","Reunion","Aruba","Cayman Islands","Curacao","('St. Martin',)","Channel Islands","Faroe Islands","Gibraltar","Saint Barthelemy","Palestine","St. Martin","Vatican City","Republic of Ireland","North Ireland"],"locationmode":"country names","z":[38716,11353,48254,1344,3388,95,555537,45862,26692,33159,38327,2928,60307,337520,181,74173,93455,1480,2267,245,126791,23465,2252,4330455,145,17918,1707,3015,472,4813,275,20167,138640,4749,1084,434748,716319,456,4928,10390,55454,13533,4684,1526,36188,20327,712,5395,24,103660,118594,101009,26928,4996,361,2676,5075,64301,32,8580,402893,8643,3405,2227,261737,45434,13240,24,81909,10045,2275,1853,8493,12,67789,4957,12309,2165,4754356,218382,402029,290309,30985,155604,287753,19013,3771,75646,3314,106855,36157,12683,94764,44881,23,1474,24310,1245,1319,22781,111,3335,7159,46,15757,85194,5690,9915,9173,2924,2352,7276,361,668381,42978,171,311,6712,86686,5269,9,9719,54159,85876,1798,4818,1180,56256,15791,12154,89746,302020,101745,510,27817,722832,261216,74152,63983,121740,103495,1059024,4591,17,27,64,722,906,325651,14280,32408,139,2109,57406,5532,3702,3389,649793,22285,2578,566326,3234,13516,4582,86505,47179,3540,498,9049,509,3475,27,1572,3042,6635,291162,4799,370930,158122,79489,1808,6519573,47287,60540,1063,30574,10,2011,13539,7526,712,4,1,1,18,1,53,32,7,45,4,1,1,2,1,2,1,1,22,2,1,21,1],"marker":{"line":{"color":"black","width":0.5}},"type":"choropleth","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<p><a href="https://thomasjfrank.com/my-1-rule-journal/" class="uri">https://thomasjfrank.com/my-1-rule-journal/</a></p>
+<p><a href="https://towardsdatascience.com/14-data-science-projects-to-do-during-your-14-day-quarantine-8bd60d1e55e1" class="uri">https://towardsdatascience.com/14-data-science-projects-to-do-during-your-14-day-quarantine-8bd60d1e55e1</a></p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <p>Copyright &copy; 2019 </p>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+
+

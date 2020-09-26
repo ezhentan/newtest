@@ -1,0 +1,114 @@
+---
+title: 14 Data Science Projects
+author: E-Zhen Tan
+date: '2020-09-24'
+slug: 14-data-science-projects
+categories: []
+tags: []
+---
+
+<style>
+body {
+text-align: justify
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+```{r install_packages, include=FALSE}
+r = getOption("repos")
+r["CRAN"] = "http://cran.us.r-project.org"
+options(repos = r)
+
+install.packages('plotly')
+library(plotly)
+
+library(dplyr)
+library(readr)
+```
+
+```{r last_edited, eval=TRUE}
+last_edited <- format(Sys.time(), '%Y-%m-%d')
+cat('Last edited on ', last_edited)
+```
+
+This post serves as a documentation of 14 Data Science projects I am committing to complete. Why am I doing this? Recently, I came across a video by Thomas Frank (from College Info Geek) about [the 1% Rule](https://www.youtube.com/watch?v=t_FSSC-ixK8), and it really got me thinking. In essence, the 1% rule states that with every new project or work, there should be an improvement of 1%. This may seem small, but with time and with more projects, it will not take long for the progress to increase exponentially.
+
+As such, I decided to embark on a series of projects that I can do to kickstart the consistency that I would need to truly capitalize on the 1% rule. For this post, I have followed the project ideas from Terence S's (2020) post, *14 Data Science Projects to do During Your 14 Day Quarantine*, linked [here](https://towardsdatascience.com/14-data-science-projects-to-do-during-your-14-day-quarantine-8bd60d1e55e1). The projects consist of 3 Visualization, 6 Exploratory Data Analysis, 5 Predictive Modelling projects.
+
+With this post, I aim to upload my outputs here, and list my learning points and/or improvements after each project. Additionally, all outputs will be from code, unless otherwise stated (when I have produced the outputs in Tableau).
+
+## Project 1: [Visualization] Coronavirus and the Global Spread Over Time
+
+*Date completed: 2020-09-24*\
+
+Learning points:
+
+* Using Plotly for the first time in Python, and converting the code to be used in R
+* Data Frame manipulation in R
+
+Area(s) to work on: 
+
+* Creating an interactive chart with sliders in R to show the spread of the coronavirus over time. Managed to do it in Python with Plotly Express, but this is not available in R.
+
+
+```{r read_Data, eval=TRUE}
+# Import data
+df <- read_csv('covid_19_data.csv', col_types='dccccddd')
+
+# Rename columns
+df <- rename(df, Country='Country/Region', Date=ObservationDate)
+
+# Manipulate dataframe
+df_countries <- df %>%
+  group_by(Country, Date) %>%
+  summarise(Confirmed = sum(Confirmed))
+
+df_countries <- arrange(df_countries, desc(Date))
+df_countries <- distinct(df_countries, Country, .keep_all=TRUE)
+df_countries <- filter(df_countries, Confirmed > 0)
+
+g <- list(showframe=FALSE,
+          showcoastlines=FALSE,
+          projection=list(type='equirectangular'))
+
+fig <- plot_ly(df_countries, type='choropleth', locations=df_countries$Country, 
+               locationmode='country names',
+               z=df_countries$Confirmed, colorscale='Reds',
+               marker=list(line=list(color='black', width=0.5)))
+
+fig <- fig %>% 
+  layout(title=list(text='Confirmed Cases as of September 23, 2020')) %>%
+  layout(geo=g)
+
+fig
+```
+
+```{r interactive_chart, include=FALSE, eval=FALSE}
+df_countrydate <- filter(df, Confirmed > 0)
+df_countrydate <- df_countrydate %>%
+  group_by(Date, Country) %>%
+  summarise(Confirmed=sum(Confirmed))
+
+g_2 <- list(showframe=FALSE,
+            showcoastlines=FALSE)
+
+fig_2 <- plot_ly(df_countrydate, type='choropleth', locations=df_countrydate$Country, 
+                 locationmode='country names', color=df_countrydate$Confirmed,
+                 hover_name=df_countrydate$Country, animation_frame=df_countrydate$Date)
+
+fig_2 <- fig_2 %>% 
+  layout(title=list(text='Global Spread of Coronavirus')) %>%
+  layout(geo=g_2)
+
+fig_2
+```
+
+## References
+
+https://thomasjfrank.com/my-1-rule-journal/
+
+https://towardsdatascience.com/14-data-science-projects-to-do-during-your-14-day-quarantine-8bd60d1e55e1
+

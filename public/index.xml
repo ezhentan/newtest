@@ -6,10 +6,19 @@
     <description>Recent content on E-Zhen Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>14 Data Science Projects</title>
+      <link>/2020/09/24/14-data-science-projects/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/09/24/14-data-science-projects/</guid>
+      <description>body { text-align: justify }  ## Last edited on 2020-09-26 This post serves as a documentation of 14 Data Science projects I am committing to complete. Why am I doing this? Recently, I came across a video by Thomas Frank (from College Info Geek) about the 1% Rule, and it really got me thinking. In essence, the 1% rule states that with every new project or work, there should be an improvement of 1%.</description>
+    </item>
     
     <item>
       <title>GitHub Commands</title>
