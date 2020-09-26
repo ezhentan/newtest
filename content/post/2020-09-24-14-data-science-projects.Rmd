@@ -9,7 +9,8 @@ tags: []
 
 <style>
 body {
-text-align: justify
+text-align: justify;
+font-size: 16px;
 }
 </style>
 
@@ -22,7 +23,7 @@ r = getOption("repos")
 r["CRAN"] = "http://cran.us.r-project.org"
 options(repos = r)
 
-install.packages('plotly')
+#install.packages('plotly')
 library(plotly)
 
 library(dplyr)
@@ -39,6 +40,8 @@ This post serves as a documentation of 14 Data Science projects I am committing 
 As such, I decided to embark on a series of projects that I can do to kickstart the consistency that I would need to truly capitalize on the 1% rule. For this post, I have followed the project ideas from Terence S's (2020) post, *14 Data Science Projects to do During Your 14 Day Quarantine*, linked [here](https://towardsdatascience.com/14-data-science-projects-to-do-during-your-14-day-quarantine-8bd60d1e55e1). The projects consist of 3 Visualization, 6 Exploratory Data Analysis, 5 Predictive Modelling projects.
 
 With this post, I aim to upload my outputs here, and list my learning points and/or improvements after each project. Additionally, all outputs will be from code, unless otherwise stated (when I have produced the outputs in Tableau).
+
+***
 
 ## Project 1: [Visualization] Coronavirus and the Global Spread Over Time
 
@@ -105,6 +108,8 @@ fig_2 <- fig_2 %>%
 
 fig_2
 ```
+
+***
 
 ## References
 
