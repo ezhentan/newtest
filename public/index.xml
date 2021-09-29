@@ -6,19 +6,10 @@
     <description>Recent content on E-Zhen Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>14 Data Science Projects</title>
-      <link>/2020/09/24/14-data-science-projects/</link>
-      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/09/24/14-data-science-projects/</guid>
-      <description>body { text-align: justify; font-size: 16px; }  ## Last edited on 2020-09-26 This post serves as a documentation of 14 Data Science projects I am committing to complete. Why am I doing this? Recently, I came across a video by Thomas Frank (from College Info Geek) about the 1% Rule, and it really got me thinking. In essence, the 1% rule states that with every new project or work, there should be an improvement of 1%.</description>
-    </item>
     
     <item>
       <title>GitHub Commands</title>
@@ -48,7 +39,7 @@ Experiential Learning to Yangon, Myanmar</description>
       <guid>/resume/</guid>
       <description>n = new Date(); y = n.getFullYear(); m = n.getMonth()+1; d = n.getDate(); document.getElementById(&#39;date&#39;).innerHTML = &#39;Last updated: &#39; + y + &#39;-&#39; + m + &#39;-&#39; + d;  My resume can be downloaded here.
 Key details Availability for Internship I am available for a full-time internship position from January - June 2021 (6-month / 24-week internship).
-Skills    Python R SQL (Intermediate) Tableau (Intermediate) IBM SPSS Modeler HTML (basic) SAS Forecast Studio (basic)     Work Experience  Jewel Paymentech</description>
+-- Skills    Python SQL (Intermediate) Tableau (Intermediate) IBM SPSS Modeler R (basic) HTML (basic)     Work Experience  ShopBack</description>
     </item>
     
     <item>
