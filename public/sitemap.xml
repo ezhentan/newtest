@@ -1,75 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/categories/</loc>
     <lastmod>2019-10-15T18:37:35+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/</loc>
-    <lastmod>2020-10-15T12:23:01+08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2019-10-15T18:37:35+08:00</lastmod>
+  </url><url>
     <loc>/2019/10/15/github-commands/</loc>
     <lastmod>2019-10-15T18:37:35+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/</loc>
     <lastmod>2019-10-15T18:37:35+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/self-learnt/</loc>
     <lastmod>2019-10-15T18:37:35+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/self-learnt/</loc>
     <lastmod>2019-10-15T18:37:35+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
     <lastmod>2019-10-15T18:37:35+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/post/</loc>
     <lastmod>2019-10-15T17:33:38+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/resume/</loc>
-    <lastmod>2020-10-15T12:23:01+08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-29T21:32:08+08:00</lastmod>
+  </url><url>
     <loc>/tags/blog/</loc>
     <lastmod>2019-09-04T16:32:14+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/experience/</loc>
     <lastmod>2019-09-04T16:32:14+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/experience/</loc>
     <lastmod>2019-09-04T16:32:14+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/2019/03/10/oel310-reflection/</loc>
     <lastmod>2019-09-04T16:32:14+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/reflection/</loc>
     <lastmod>2019-09-04T16:32:14+08:00</lastmod>
   </url>
-  
 </urlset>
