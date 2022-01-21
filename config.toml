@@ -1,4 +1,4 @@
-baseurl = "https://ezhentan.netlify.com/"
+baseurl = "https://ezhentan.netlify.app/"
 languageCode = "en-us"
 title = "E-Zhen Tan"
 theme = "hugo-lithium"

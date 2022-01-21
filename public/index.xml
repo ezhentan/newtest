@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>E-Zhen Tan</title>
-    <link>https://ezhentan.netlify.com/</link>
+    <link>https://ezhentan.netlify.app/</link>
     <description>Recent content on E-Zhen Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ezhentan.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ezhentan.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub Commands</title>
-      <link>https://ezhentan.netlify.com/2019/10/15/github-commands/</link>
+      <link>https://ezhentan.netlify.app/2019/10/15/github-commands/</link>
       <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ezhentan.netlify.com/2019/10/15/github-commands/</guid>
+      <guid>https://ezhentan.netlify.app/2019/10/15/github-commands/</guid>
       <description>This guide is what I have learnt from building my GitHub portfolio. It also serves as a reminder for me when I need to refer to the codes again.
 Step 0: Install Git in Terminal (if you have not done so) Whether you have Git already in your command shell can be easily verified with one command. Run git in your shell. If it says command not found, then you can go ahead and install Git.</description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>https://ezhentan.netlify.com/post/</link>
+      <link>https://ezhentan.netlify.app/post/</link>
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ezhentan.netlify.com/post/</guid>
+      <guid>https://ezhentan.netlify.app/post/</guid>
       <description>Blogposts:
 Experiential Learning to Yangon, Myanmar</description>
     </item>
     
     <item>
       <title>Resume</title>
-      <link>https://ezhentan.netlify.com/resume/</link>
+      <link>https://ezhentan.netlify.app/resume/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ezhentan.netlify.com/resume/</guid>
+      <guid>https://ezhentan.netlify.app/resume/</guid>
       <description>n = new Date(); y = n.getFullYear(); m = n.getMonth()+1; d = n.getDate(); document.getElementById(&#39;date&#39;).innerHTML = &#39;Last updated: &#39; + y + &#39;-&#39; + m + &#39;-&#39; + d;  My resume can be downloaded here.
 Key details Availability for Internship I am available for a full-time internship position from January - June 2021 (6-month / 24-week internship).
 -- Skills    Python SQL (Intermediate) Tableau (Intermediate) IBM SPSS Modeler R (basic) HTML (basic)     Work Experience  ShopBack</description>
@@ -40,10 +40,10 @@ Key details Availability for Internship I am available for a full-time internshi
     
     <item>
       <title>Experiential Learning Journey to Yangon, Myanmar</title>
-      <link>https://ezhentan.netlify.com/2019/03/10/oel310-reflection/</link>
+      <link>https://ezhentan.netlify.app/2019/03/10/oel310-reflection/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ezhentan.netlify.com/2019/03/10/oel310-reflection/</guid>
+      <guid>https://ezhentan.netlify.app/2019/03/10/oel310-reflection/</guid>
       <description>Abstract Duration of trip: 3-9 March 2019
 Course code: OEL310
 Author: E-Zhen Tan
