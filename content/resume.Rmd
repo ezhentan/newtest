@@ -1,8 +1,19 @@
 ---
-date: '2019-09-03'
-title: Resume
+title: "Resume"
+date: "`r format(Sys.time(), '%Y-%b-%d')`"
 ---
 
-Updated: 2019-09-03
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+Updated: 
+```{r, echo=FALSE} 
+format(Sys.time(), '%Y-%b-%d')
+```
 
 My resume can be downloaded [here](Tan_E-Zhen_resume.pdf).
+
+```{r, echo=FALSE}
+shiny::includeHTML("resume_in_html.html")
+```
