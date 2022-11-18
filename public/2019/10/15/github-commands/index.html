@@ -10,7 +10,7 @@
 <meta property="og:title" content="GitHub Commands - E-Zhen Tan">
 
 
-  <link href='https://ezhentan.netlify.app/IMG_3376.png' rel='icon' type='image/x-icon'/>
+  <link href='https://ezhentan.netlify.app/IMG_0151_circle.png' rel='icon' type='image/x-icon'/>
 
 
 
@@ -38,7 +38,7 @@
       <header class="header">
         <nav class="nav">
   <a href="/" class="nav-logo">
-    <img src="/images/IMG_3376.png"
+    <img src="/images/IMG_0151_circle.png"
          width="50"
          height="50"
          alt="Logo">
@@ -74,52 +74,33 @@
     
 
     <div class="article-content">
-      
-
-
-<p>This guide is what I have learnt from building my GitHub portfolio. It also serves as a reminder for me when I need to refer to the codes again.</p>
-<div id="step-0-install-git-in-terminal-if-you-have-not-done-so" class="section level1">
-<h1>Step 0: Install Git in Terminal (if you have not done so)</h1>
+      <p>This guide is what I have learnt from building my GitHub portfolio. It also serves as a reminder for me when I need to refer to the codes again.</p>
+<h1 id="step-0-install-git-in-terminal-if-you-have-not-done-so">Step 0: Install Git in Terminal (if you have not done so)</h1>
 <p>Whether you have Git already in your command shell can be easily verified with one command. Run <code>git</code> in your shell. If it says <code>command not found</code>, then you can go ahead and install Git. If Git is already installed, Terminal will list out some information and commands that you can run to use Git.</p>
 <p>Now that Git is installed, we can move on to Step 1.</p>
-</div>
-<div id="step-1-create-a-repository" class="section level1">
-<h1>Step 1: Create a Repository</h1>
-<p>This will be done in the GitHub website, rather self-explanatory. For my repository, I named in ‘schoolprojects’.</p>
-</div>
-<div id="step-2-create-a-file-in-your-computer" class="section level1">
-<h1>Step 2: Create a File in your computer</h1>
+<h1 id="step-1-create-a-repository">Step 1: Create a Repository</h1>
+<p>This will be done in the GitHub website, rather self-explanatory. For my repository, I named in &lsquo;schoolprojects&rsquo;.</p>
+<h1 id="step-2-create-a-file-in-your-computer">Step 2: Create a File in your computer</h1>
 <p>This can be done in Terminal using the following code:</p>
-<pre class="bash"><code>mkdir schoolprojects</code></pre>
-<p><em>Note that the name of the folder must correspond to the name of the repository made in Step 1.</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir schoolprojects
+</code></pre></div><p><em>Note that the name of the folder must correspond to the name of the repository made in Step 1.</em></p>
 <p>Once the folder has been created, a good practice is to create a README.md file to explain what the contents of the repository is about. This can be done from GitHub, but we shall try this from Terminal instead. The <code>echo</code> command will create a new file in the directory.</p>
-<pre class="bash"><code>echo &#39;#schoolprojects&#39; &gt;&gt; README.md
-cat README.md</code></pre>
-</div>
-<div id="step-3-initialise-and-commit-changes" class="section level1">
-<h1>Step 3: Initialise and commit changes</h1>
-<pre class="bash"><code>git init
-git commit -m &#39;README file&#39;</code></pre>
-</div>
-<div id="step-4-add-a-remote" class="section level1">
-<h1>Step 4: Add a remote</h1>
-<pre class="bash"><code>git add remote add origin &lt;repository URL&gt;</code></pre>
-</div>
-<div id="step-5-push-the-changes-up-to-the-repository" class="section level1">
-<h1>Step 5: Push the changes up to the repository</h1>
-<pre class="bash"><code>git push -u origin master</code></pre>
-<p>Once the changes are pushed, refresh your GitHub repository and admire your handiwork!</p>
-<hr />
-</div>
-<div id="appendix-a-creating-a-folder-in-github" class="section level1">
-<h1>Appendix A: Creating a folder in GitHub</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#39;#schoolprojects&#39;</span> &gt;&gt; README.md
+cat README.md
+</code></pre></div><h1 id="step-3-initialise-and-commit-changes">Step 3: Initialise and commit changes</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git init
+git commit -m <span style="color:#e6db74">&#39;README file&#39;</span>
+</code></pre></div><h1 id="step-4-add-a-remote">Step 4: Add a remote</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add remote add origin &lt;repository URL&gt;
+</code></pre></div><h1 id="step-5-push-the-changes-up-to-the-repository">Step 5: Push the changes up to the repository</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git push -u origin master
+</code></pre></div><p>Once the changes are pushed, refresh your GitHub repository and admire your handiwork!</p>
+<hr>
+<h1 id="appendix-a-creating-a-folder-in-github">Appendix A: Creating a folder in GitHub</h1>
 <p>To create a new folder, add a <code>/</code> in front of the folder name. GitHub will automatically format it to a folder. However, the catch is that there must be a file inside the folder.</p>
-<!--<img src="git_folder.png"></img>
-
-
--->
-<p><img src="git_folder.jpg" /></p>
-</div>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><img src="./git_folder.jpg" alt=""></p>
 
     </div>
   </article>
