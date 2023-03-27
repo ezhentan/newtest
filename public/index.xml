@@ -35,7 +35,7 @@ Experiential Learning to Yangon, Myanmar</description>
       <guid>https://ezhentan.netlify.app/resume/</guid>
       <description>n = new Date(); y = n.getFullYear(); m = n.getMonth()+1; d = n.getDate(); document.getElementById(&#39;date&#39;).innerHTML = &#39;Last updated: &#39; + y + &#39;-&#39; + m + &#39;-&#39; + d;  My resume can be downloaded here.
 Key details Availability for Full-time Work Open to a Data Analyst role. Looking for a fast-paced environment where working and learning are equally valued.
-!-- Skills    Python SQL (Intermediate) Tableau (Intermediate) Power BI (Basic) Qlik Sense (Basic) R (Basic) HTML (Basic)     Work Experience Full-time Work  NCS Group Pte Ltd</description>
+!-- Skills    Python SQL R (intermediate) Qlik Sense (Intermediate) Power BI (Basic) Tableau (Basic) HTML (Basic)     Work Experience Full-time Work  NCS Group Pte Ltd</description>
     </item>
     
     <item>
